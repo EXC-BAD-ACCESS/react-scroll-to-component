@@ -37,9 +37,23 @@ ease-component@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ease-component/-/ease-component-1.0.0.tgz#b375726db0b5b04595b77440396fec7daa5d77c9"
 
+performance-now@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
+
+raf@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/raf/-/raf-3.4.0.tgz#a28876881b4bc2ca9117d4138163ddb80f781575"
+  dependencies:
+    performance-now "^2.1.0"
+
 scroll-to@sashashakun/ssr-scroll-to:
   version "0.0.2"
   resolved "https://codeload.github.com/sashashakun/ssr-scroll-to/tar.gz/1f7c0f12d34cfd290a17a8dde5f8acb47ced69f4"
   dependencies:
     component-raf "1.2.0"
     component-tween "1.2.0"
+
+tween@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/tween/-/tween-0.9.0.tgz#f856c7a9c9ab85ca9a2bc02282591aa2513a20ed"
